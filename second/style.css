@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.left {
+  background: #49A5FF;
+  float: left;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  right: 33.33%;
+}
+
+.middle {
+  background: #70FFD3;
+  height: 100vh;
+  clear: left;
+  float: left;
+  width: 100%;
+  position: relative;
+  right: 33.333%;
+
+}
+
+.right{
+  background: #C7FF8E;
+  height: 100vh;
+  clear: left;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-placeholder{
+  background: red;
+  width: 33.33%;
+  height: 15vh;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  margin-left: 66.66%;
+
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  padding: 30px;
+
+}
